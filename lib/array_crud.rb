@@ -7,20 +7,22 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push("el1")
+  array.push(element)
 end
 
 def add_element_to_start_of_array(array, element)
-  array.unshift("el")
-end
+  array.unshift(element)
+end 
 
 def remove_element_from_end_of_array(array)
-  array.pop(el)
+  array.pop
 end
 
+
 def remove_element_from_start_of_array(array)
-  array.shift(el)
+  array.shift
 end
+
 
 def retrieve_element_from_index(array, index_number)
   array[index_number]
